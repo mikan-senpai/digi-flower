@@ -57,8 +57,8 @@ export default function Bouquet({ bouquet }: BouquetReadOnlyProps) {
                       const index =
                         bouquet.flowerOrder.length > 0
                           ? bouquet.flowerOrder[
-                              flowerIndex * flower.count + instanceIndex
-                            ] ?? flowerIndex * flower.count + instanceIndex
+                          flowerIndex * flower.count + instanceIndex
+                          ] ?? flowerIndex * flower.count + instanceIndex
                           : flowerIndex * flower.count + instanceIndex;
 
                       // Get dimensions based on flower size
@@ -91,9 +91,8 @@ export default function Bouquet({ bouquet }: BouquetReadOnlyProps) {
 
             <div>
               <Image
-                src={`/${bouquet.mode}/bush/bush-${
-                  bouquet.greenery + 1
-                }-top.png`}
+                src={`/${bouquet.mode}/bush/bush-${bouquet.greenery + 1
+                  }-top.png`}
                 alt="bush top"
                 width={600}
                 height={500}
@@ -107,7 +106,7 @@ export default function Bouquet({ bouquet }: BouquetReadOnlyProps) {
       <div className="mx-auto max-w-sm text-sm text-center">
         <div>
           {/* White card container with black border */}
-          <div className="bg-white border-[1.5px] border-black p-8 mx-auto -translate-y-[50px] -rotate-2 hover:-rotate-2 transition-all duration-300">
+          <div className="bg-white border-[1.5px] border-black p-8 mx-auto -translate-y-[50px] -rotate-2 hover:-rotate-2 transition-all duration-300 relative z-20">
             <div className="space-y-4">
               <div className="flex flex-row gap-2 items-left justify-left">
                 <p className="bg-transparent border-none focus:outline-none focus:ring-0">

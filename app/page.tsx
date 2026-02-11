@@ -47,13 +47,7 @@ export default function Home() {
         </div>
 
         <p className="mt-10 text-sm text-gray-500">
-          made by{" "}
-          <Link
-            href="https://x.com/pau_wee_"
-            className="mt-2 text-sm text-gray-500 underline"
-          >
-            @pau_wee_
-          </Link>
+          made by @mikan
         </p>
       </div>
     </div>
